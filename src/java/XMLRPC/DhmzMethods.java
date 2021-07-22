@@ -27,7 +27,7 @@ public class DhmzMethods {
         
         XPath xPath = XPathFactory.newInstance().newXPath();
         Node node = (Node)xPath.compile("/Hrvatska/Grad[GradIme = '"+naziv+"']").evaluate(doc, XPathConstants.NODE);
-
+        
         return node;
     }
     

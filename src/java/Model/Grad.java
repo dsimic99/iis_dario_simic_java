@@ -10,6 +10,8 @@ import java.io.OutputStream;
 import java.io.Serializable;
 import java.io.Writer;
 import java.util.Properties;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import org.xml.sax.ContentHandler;
 
 

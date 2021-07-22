@@ -107,9 +107,7 @@ public class JaxbValidationServlet extends HttpServlet {
              //JAXBContent
              JAXBContext jaxbContext;
              jaxbContext = JAXBContext.newInstance(DentistAppointment.class);
-             
-            
-            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             
             try {
             SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
